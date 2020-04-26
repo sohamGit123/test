@@ -1,0 +1,193 @@
+body{
+	margin-left:30px;
+	margin-top:30px;
+	background-image:url("forPeopleBackground.JPG");
+	background-repeat:no-repeat;
+	background-size:90% 100%;
+}
+.heading{
+	padding-top:10px;
+	font-size:1.2vw;
+	font-family:Palatino Linotype;
+	color:white;
+}
+.lower,.upper{
+	margin-left:1.5vw;
+	position:relative;
+	width:100%;
+}
+input{
+	padding-left:20px;
+}
+#i1{
+	font-size:1vw;
+	height:60px;
+	width:30vw;
+	border-radius:10px;
+}
+#s1{
+	font-size:1vw;
+	margin-left:-205px;
+	height:50px;
+	width:195px;
+	border-radius:10px;
+}
+.para{
+	font-size:1.2vw;
+}
+.middle1{
+	width:50vw;
+	padding-left:3vw;
+	vertical-align:top;
+}
+.middle2{
+	padding-top:15vh;
+	vertical-align:bottom;
+	width:500px;
+}
+.finakya{
+	vertical-align:top; 
+	width:28vw; 
+	color:white;
+	font-size:40;
+	font-family:verdana;
+	padding-top:10px;
+}
+.forPeople{
+	font-size:1.3vw;
+	color:white;
+	width:7.5vw;
+	vertical-align:top;
+}
+.finTech{
+	font-size:1.3vw;
+	color:white;
+	width:17vw;
+	vertical-align:top;
+}
+.merchants{
+	font-size:1.3vw;
+	color:white;
+	width:9vw;
+	vertical-align:top;
+}
+.investors{
+	font-size:1.3vw;
+	color:white;
+	vertical-align:top;
+}
+.icon{
+	width:8vw;
+	display:none;
+}
+a{color:white;}
+.image{
+	height:63vh;
+	width:37vw;
+}
+@media 
+only screen and (max-width: 1280px),
+(min-device-width: 768px) and (max-device-width: 1080px){
+	body{
+		margin-left:40px;
+		margin-top:30px;
+		background-image:url("forPeopleBackground.JPG");
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.heading{
+		text-align:left;
+		font-family:verdana;
+		font-size:12;
+		color:white;
+	}
+	.upper,.lower,.middle1{
+		width:100%;
+		display: block;
+		position:relative;
+		padding-left:10px;
+	}
+	.middle2{
+		width:100%;
+		display: block;
+		position:relative;
+		padding-left:10px;
+		padding-top:5vh;
+	}
+	.para {
+		font-size:15;
+	}
+	.finakya{
+		position:relative;
+	}
+	#i1{
+		font-size:12;
+		height:50px;
+		width:60vw;
+		border-radius:10px;
+	}
+	#s1{
+		font-size:12;
+		margin-left:-170px;
+		height:40px;
+		width:160px;
+		border-radius:10px;
+	}
+	.image{
+		padding-left:33vw;
+		width:360;
+		height:330;
+	}
+	
+}
+@media 
+only screen and (max-width: 1024px),
+(min-device-width: 768px) and (max-device-width: 1024px){
+	.topnav .forPeople,.finTech,.merchants,.investors{display:none;}
+	.icon{position: absolute;
+		display: block;
+    		right: 0;
+    		top: -80;}
+	.col1,.col2,.topnav.responsive .forPeople,.topnav.responsive .finTech,.topnav.responsive .merchants,.topnav.responsive .investors{
+		height:40px;
+		color:white;
+		display: block;
+		position:relative;
+		width:100%;
+		font-size:2vw;
+		padding-top:4px;
+	}
+	#i1{
+		font-size:12;
+		height:50px;
+		width:87vw;
+		border-radius:10px;
+	}
+	#s1{
+		font-size:12;
+		margin-left:-170px;
+		height:40px;
+		width:160px;
+		border-radius:10px;
+	}
+	.para{
+		font-size:15;
+	}
+	.heading{
+		font-size:9;
+		color:white;
+	}
+	.middle2{
+		text-align:center;
+	}
+	.responsiveHeader{
+		padding-top:200px;
+		font-size:12;
+		color:white;
+	}
+	.topnav.responsive .icon {
+    		position: absolute;
+    		right: 0;
+    		top: -80;
+  	}
+}

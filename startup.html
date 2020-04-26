@@ -1,0 +1,79 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="startup_style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+  <div style="height:80px" class="upper">
+  <div class="col1" style="height:70px;width:34vw;float:left">
+  <table style="float:left">
+    <tr>
+    <td>
+    <div style="height:60px;width:60px">
+      <img height="60vw" src="Circle_logo.PNG"></img>
+    </div>
+    </td>
+    <td class="Finakya">Finakya</td>
+    </tr>
+  </table>
+  </div>
+  <div class="col2" style="height:30px;float:left">
+  <table class="topnav" id="myTopnav" style="float:left">
+    <tr>
+    <td class="forPeople">
+	<a href="people.html">For People</a>
+    </td>
+    <td class="finTech">
+	<a href="startup.html">For FinTech/EdTech Startups</a>
+    </td>
+    <td class="merchants"> 
+	<a href="merchant.html">For Merchants</a>
+    </td>
+    <td class="investors">
+	<a href="investor.html">For Investors</a>
+    </td>
+    <td class="icon" onclick="myFunction()">
+	<a href="#"><i style="font-size:48px" class="fa fa-bars"></i>
+  	</a>
+    </td>
+    </tr>
+  </table>
+  </div>
+  </div>
+  <div id="secret" class="lower">
+  <table>
+    <tr>
+      <td class="middle1">
+	<div id="hid" style="width:100%" class="heading"><h1>The Chanakya of Finance is here!</h1></div>
+	<p class="para" style="color:white">Need a helping hand managing your financial life?<br>
+           Want to meet the king of astute financial advice?</p>
+	<p class="para" style="color:white">Enter your email below to meet Finakya before everyone else!</p>
+	<input style="background-image:url('Capture2.JPG');color:white;font-family:verdana" type="submit" id="s1" name="collaboration" value="Request Early collaboration  ->"></input>
+      </td>
+      <td class="middle2">
+	<img class="image" src="Component2.PNG">
+      </td>
+    </tr>
+  </table>
+  </div>
+  <script>
+	function myFunction() {
+  		var x = document.getElementById("myTopnav");
+  		if (x.className === "topnav") {
+    		x.className += " responsive";
+  		} 
+		else {
+    			x.className = "topnav";
+  		}
+		var y = document.getElementById("secret");
+  		if (y.className === "lower") {
+    		y.className = "responsiveHeader";
+  		} 
+		else {
+    			y.className = "lower";
+  		}
+	}
+</script>
+</body>
+</html>
